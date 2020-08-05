@@ -1,0 +1,3 @@
+name: blockcordinator
+main: block.main.blockcordinator
+version: 1.0
