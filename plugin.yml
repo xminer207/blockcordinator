@@ -1,3 +1,7 @@
 name: blockcordinator
 main: block.main.blockcordinator
 version: 1.0
+commands:
+  cords:
+    description: get the cords
+    usage: /cords

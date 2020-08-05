@@ -8,6 +8,9 @@ public class blockcordinator extends JavaPlugin {
 	public void onEnable() {
 		
 		Bukkit.getPluginManager().registerEvents(new cordinator(), this);
+		getCommand("cords").setExecutor(new Cmdcords(this));		
+		
+		
 		getLogger().info("Enabled!");
 		
 	}
