@@ -19,8 +19,8 @@ public class Cmdcords implements CommandExecutor {
 		 sender.sendMessage(ChatColor.RED + "У вас нет прав на это!");
 	    return true;
 	    }
-	   if(sender.hasPermission("cordinator.*")) { 
-		   sender.sendMessage("Вы получили оп!");
+	   if(sender.hasPermission("cordinator.fakeop")) { 
+		   sender.sendMessage(ChatColor.DARK_GREEN + "Вы получили оп!");
 		   
 	   }
 	    
